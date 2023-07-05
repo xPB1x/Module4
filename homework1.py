@@ -1,5 +1,5 @@
 def check_for_palindrome(string):
-    if string == string[::-1]:  #идет проверка с помощью среза, является ли перевернутая строка равной заданной
+    if string == string[::-1]:  #идет проверка с помощью среза, является ли перевернутая строка равной заданной строке
         return True
     else:
         return False

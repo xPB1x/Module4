@@ -1,0 +1,25 @@
+h1 {
+    background: pink;
+}
+
+.paragraf-1 {
+    background: yellow;
+    font-size: 16pt;
+    color: white;
+}
+
+.paragraf-2 {
+    border: 10px solid yellow;
+    border-radius: 15px;
+    font-size: 20pt;
+    margin-bottom: 50px;
+    margin-left: 30px
+    padding-bottom: 30px;
+    padding-top: 10px
+}
+
+.paragraf-3 {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: Courier New;
+}

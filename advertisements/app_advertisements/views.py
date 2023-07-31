@@ -3,6 +3,8 @@ from django.shortcuts import render
 
 
 def index(requests):
-    return HttpResponse('Успешно!')
+    return render(requests, 'index.html')
 
-# Create your views here.
+
+def top_sellers(requests):
+    return render(requests, 'top-sellers.html')

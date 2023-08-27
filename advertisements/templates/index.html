@@ -17,22 +17,22 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="advertisement-post.html">
+    <a class="nav-link" href="{% url 'advertisement_post' %}">
       <span style="font-weight: bold;">Разместить объявление</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="register.html">
+    <a class="nav-link" href="{% url 'register' %}">
       <span style="font-weight: bold;">Регистрация</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="login.html">
+    <a class="nav-link" href="{% url 'login' %}">
       <span style="font-weight: bold;">Войти</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="profile.html">
+    <a class="nav-link" href="{% url 'profile' %}">
       <span style="font-weight: bold;">Профиль</span>
     </a>
   </li>
@@ -99,7 +99,7 @@
     <div class="card mb-2" style="max-width: 1200px; margin-top: 20px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <a href="advertisement.html" class="nav-link">
+          <a href="{% url 'advertisement' %}" class="nav-link">
             <img src="{% if adv.image %} {{ adv.image.url }} {% else %} {% static 'img/pic.png' %} {% endif %}" class="img-fluid rounded-start" alt="Card title">
           </a>
         </div>
